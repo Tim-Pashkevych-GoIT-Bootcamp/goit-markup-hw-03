@@ -1,0 +1,238 @@
+:root {
+  /* SLATE */
+  --primary-text-color: #434455;
+  /* NAVY BLUE */
+  --secondary-text-color: #2e2f42;
+
+  /* IRIS  */
+  --btn-accent-color: #4d5ae5;
+  /* OCEAN */
+  --btn-active-color: #404bbf;
+
+  /* Main background color: WHITE */
+  --primary-bg-color: #ffffff;
+  /* Secondary background color: CLOUD */
+  --secondary-bg-color: #f4f4fd;
+  /* Image background color: CORNFLOWER */
+  --img-bg-color: #e7e9fc;
+}
+
+/* Base Template settings */
+body {
+  color: var(--primary-text-color);
+
+  background-color: var(--primary-bg-color);
+
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-text-color);
+}
+
+a {
+  font-family: inherit;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  color: var(--primary-bg-color);
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Section */
+.section-header {
+  text-align: center;
+  text-transform: capitalize;
+
+  font-size: 36px;
+  font-weight: 700;
+
+  line-height: 1.11;
+  letter-spacing: 0.04em;
+}
+
+/* Header */
+.page-header .logo {
+  color: var(--btn-accent-color);
+}
+.page-header .logo-second-part {
+  color: var(--secondary-text-color);
+}
+.main-nav .logo,
+.page-footer .logo {
+  text-transform: uppercase;
+
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Raleway, sans-serif;
+
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.main-nav-menu-link {
+  color: var(--secondary-text-color);
+  text-transform: capitalize;
+
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact-info {
+  font-style: normal;
+}
+.contact-info-menu-link {
+  color: var(--primary-text-color);
+  font-weight: 400;
+}
+.main-nav .link:hover,
+.main-nav .link:focus,
+.contact-info .link:hover,
+.contact-info .link:focus {
+  color: var(--btn-active-color);
+}
+
+/* Footer */
+.page-footer {
+  background-color: var(--secondary-text-color);
+}
+.page-footer .logo {
+  color: var(--btn-accent-color);
+}
+.page-footer .logo-second-part {
+  color: var(--secondary-bg-color);
+}
+.page-footer .footer-description {
+  color: var(--secondary-bg-color);
+  font-weight: 400;
+}
+
+/* HOME PAGE */
+
+/* Hero */
+.section-hero {
+  text-align: center;
+  background-color: var(--secondary-text-color);
+}
+.section-hero .section-header {
+  color: var(--primary-bg-color);
+
+  font-weight: 700;
+  font-size: 56px;
+
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.section-hero .hero-btn {
+  cursor: pointer;
+  background-color: var(--btn-accent-color);
+}
+.section-hero .hero-btn:hover,
+.section-hero .hero-btn:focus {
+  background-color: var(--btn-active-color);
+}
+
+/* Features */
+.section-content .feature-block {
+  text-align: left;
+}
+.section-content .feature-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-content .feature-description {
+  font-weight: 400;
+}
+
+/* Our Services */
+/* Our Team */
+.section-team {
+  background-color: var(--secondary-bg-color);
+}
+.section-team .member-card {
+  text-align: center;
+  background-color: var(--primary-bg-color);
+}
+.section-team .member-name {
+  font-size: 20px;
+  font-weight: 500;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-team .member-role {
+  color: var(--primary-text-color);
+  font-weight: 400;
+}
+
+/* PORTFOLIO PAGE */
+.btn-portfolio-filter {
+  color: var(--btn-accent-color);
+  text-align: center;
+  text-decoration: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  cursor: pointer;
+  background-color: var(--secondary-bg-color);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.btn-portfolio-filter:hover,
+.btn-portfolio-filter:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--btn-active-color);
+}
+.portfolio-project {
+  text-decoration: none;
+}
+.portfolio-project-title {
+  color: var(--secondary-text-color);
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 500;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-project-description {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
