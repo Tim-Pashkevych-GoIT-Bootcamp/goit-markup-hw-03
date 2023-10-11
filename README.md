@@ -1,6 +1,6 @@
 # GoIT Full Stack Developer Bootcamp
 
-This is a repository for a **Homework #2** of \***\*HTML+CSS 2.0\*\*** module.
+This is a repository for a **Homework #3** of \***\*HTML+CSS 2.0\*\*** module.
 
 Check the link below to see the live demo.
 
