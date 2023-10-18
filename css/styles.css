@@ -180,7 +180,7 @@ img {
   gap: 40px;
 }
 .address-item {
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .address-link {
   color: var(--primary-text-color);
@@ -206,8 +206,7 @@ img {
 .section-hero {
   text-align: center;
   background-color: var(--secondary-text-color);
-}
-.section-hero .container {
+
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -273,7 +272,7 @@ img {
 /* ===================== 
  #SECTION Our Services
 ===================== */
-.section-services .container {
+.section-services {
   padding-bottom: 120px;
 }
 .services-title {
@@ -284,10 +283,9 @@ img {
  #SECTION Our Team
 ===================== */
 .section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--secondary-bg-color);
-}
-.section-team .container {
-  padding: 120px 15px;
 }
 .team-title {
   margin-bottom: 72px;
@@ -328,6 +326,8 @@ img {
  #FOOTER
 ===================== */
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--secondary-text-color);
 }
 .footer .logo {
@@ -342,9 +342,6 @@ img {
 .footer .footer-description {
   color: var(--secondary-bg-color);
   font-weight: 400;
-}
-.footer .container {
-  padding: 100px 0 100px;
 }
 .footer-description {
   width: 264px;
@@ -421,9 +418,6 @@ img {
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
-
-  border: 1px solid var(--img-bg-color);
-  background: var(---primary-bg-color);
 }
 .portfolio-project-desc {
   display: flex;
@@ -432,6 +426,10 @@ img {
   justify-content: center;
   align-items: flex-start;
   align-self: stretch;
+
+  border: 1px solid var(--img-bg-color);
+  border-top: none;
+  background: var(---primary-bg-color);
 }
 .portfolio-project-title {
   color: var(--secondary-text-color);
